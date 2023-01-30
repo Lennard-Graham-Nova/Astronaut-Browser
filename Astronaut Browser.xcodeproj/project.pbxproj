@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264948932985D3190022CA16 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264948922985D3190022CA16 /* Color+.swift */; };
+		264948952985D45E0022CA16 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264948942985D45E0022CA16 /* NetworkError.swift */; };
+		264948972985DA4F0022CA16 /* Network+Astronaunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264948962985DA4F0022CA16 /* Network+Astronaunt.swift */; };
+		2649489A2987D2E70022CA16 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264948992987D2E70022CA16 /* NetworkProtocol.swift */; };
+		2649489D2987D3950022CA16 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264948942985D45E0022CA16 /* NetworkError.swift */; };
+		264948A22987DADC0022CA16 /* MockNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649489B2987D37E0022CA16 /* MockNetwork.swift */; };
+		264948A42987DBB30022CA16 /* Astronaut+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264948A32987DBB30022CA16 /* Astronaut+.swift */; };
+		264948A72987DF660022CA16 /* AstronautResponseExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 26E0A9512985C41F00A42735 /* AstronautResponseExample.json */; };
+		26E0A8FE2983028100A42735 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E0A8FD2983028100A42735 /* Network.swift */; };
+		26E0A90029830A4C00A42735 /* AstronautViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E0A8FF29830A4C00A42735 /* AstronautViewViewModel.swift */; };
+		26E0A90329830A8100A42735 /* AstronautListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E0A90229830A8100A42735 /* AstronautListView.swift */; };
+		26E0A9052983C2B300A42735 /* AstronautCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E0A9042983C2B300A42735 /* AstronautCell.swift */; };
+		26E0A9072983CF3000A42735 /* AstronautResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E0A9062983CF3000A42735 /* AstronautResponse.swift */; };
+		26E0A9092983CF4500A42735 /* Agency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E0A9082983CF4500A42735 /* Agency.swift */; };
+		26E0A90B2983CF5700A42735 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E0A90A2983CF5700A42735 /* Status.swift */; };
+		26E0A90F2983CFE700A42735 /* AstronautDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E0A90E2983CFE700A42735 /* AstronautDetailView.swift */; };
+		26E0A94D2984A6EF00A42735 /* AstronautFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E0A94C2984A6EF00A42735 /* AstronautFilterView.swift */; };
+		26E0A9532985C42600A42735 /* AstronautResponseExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 26E0A9512985C41F00A42735 /* AstronautResponseExample.json */; };
 		26F99BE929822A04000D4092 /* Astronaut_BrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F99BE829822A04000D4092 /* Astronaut_BrowserApp.swift */; };
-		26F99BEB29822A04000D4092 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F99BEA29822A04000D4092 /* ContentView.swift */; };
 		26F99BED29822A06000D4092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F99BEC29822A06000D4092 /* Assets.xcassets */; };
 		26F99BF129822A06000D4092 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F99BF029822A06000D4092 /* Preview Assets.xcassets */; };
 		26F99BFB29822A06000D4092 /* Astronaut_BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F99BFA29822A06000D4092 /* Astronaut_BrowserTests.swift */; };
 		26F99C0529822A06000D4092 /* Astronaut_BrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F99C0429822A06000D4092 /* Astronaut_BrowserUITests.swift */; };
 		26F99C0729822A06000D4092 /* Astronaut_BrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F99C0629822A06000D4092 /* Astronaut_BrowserUITestsLaunchTests.swift */; };
+		26F99C1529822AE0000D4092 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F99C1429822AE0000D4092 /* Astronaut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		264948922985D3190022CA16 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		264948942985D45E0022CA16 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		264948962985DA4F0022CA16 /* Network+Astronaunt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Astronaunt.swift"; sourceTree = "<group>"; };
+		264948992987D2E70022CA16 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		2649489B2987D37E0022CA16 /* MockNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetwork.swift; sourceTree = "<group>"; };
+		264948A32987DBB30022CA16 /* Astronaut+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Astronaut+.swift"; sourceTree = "<group>"; };
+		26E0A8FD2983028100A42735 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		26E0A8FF29830A4C00A42735 /* AstronautViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautViewViewModel.swift; sourceTree = "<group>"; };
+		26E0A90229830A8100A42735 /* AstronautListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListView.swift; sourceTree = "<group>"; };
+		26E0A9042983C2B300A42735 /* AstronautCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautCell.swift; sourceTree = "<group>"; };
+		26E0A9062983CF3000A42735 /* AstronautResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautResponse.swift; sourceTree = "<group>"; };
+		26E0A9082983CF4500A42735 /* Agency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agency.swift; sourceTree = "<group>"; };
+		26E0A90A2983CF5700A42735 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		26E0A90E2983CFE700A42735 /* AstronautDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailView.swift; sourceTree = "<group>"; };
+		26E0A94C2984A6EF00A42735 /* AstronautFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautFilterView.swift; sourceTree = "<group>"; };
+		26E0A9512985C41F00A42735 /* AstronautResponseExample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AstronautResponseExample.json; sourceTree = "<group>"; };
 		26F99BE529822A04000D4092 /* Astronaut Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Astronaut Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F99BE829822A04000D4092 /* Astronaut_BrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut_BrowserApp.swift; sourceTree = "<group>"; };
-		26F99BEA29822A04000D4092 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		26F99BEC29822A06000D4092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26F99BEE29822A06000D4092 /* Astronaut_Browser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Astronaut_Browser.entitlements; sourceTree = "<group>"; };
 		26F99BF029822A06000D4092 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +78,7 @@
 		26F99C0029822A06000D4092 /* Astronaut BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Astronaut BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F99C0429822A06000D4092 /* Astronaut_BrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut_BrowserUITests.swift; sourceTree = "<group>"; };
 		26F99C0629822A06000D4092 /* Astronaut_BrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut_BrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26F99C1429822AE0000D4092 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +106,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		264948982985DCF20022CA16 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				264948922985D3190022CA16 /* Color+.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		26E0A90129830A5100A42735 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26E0A90229830A8100A42735 /* AstronautListView.swift */,
+				26E0A9042983C2B300A42735 /* AstronautCell.swift */,
+				26E0A90E2983CFE700A42735 /* AstronautDetailView.swift */,
+				26E0A94C2984A6EF00A42735 /* AstronautFilterView.swift */,
+				26E0A8FF29830A4C00A42735 /* AstronautViewViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26E0A9502985C3F600A42735 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				26E0A9512985C41F00A42735 /* AstronautResponseExample.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		26F99BDC29822A04000D4092 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +157,11 @@
 		26F99BE729822A04000D4092 /* Astronaut Browser */ = {
 			isa = PBXGroup;
 			children = (
+				264948982985DCF20022CA16 /* Styles */,
 				26F99BE829822A04000D4092 /* Astronaut_BrowserApp.swift */,
-				26F99BEA29822A04000D4092 /* ContentView.swift */,
+				26F99C1629822BED000D4092 /* Networking */,
+				26F99C1329822AC9000D4092 /* Models */,
+				26E0A90129830A5100A42735 /* Views */,
 				26F99BEC29822A06000D4092 /* Assets.xcassets */,
 				26F99BEE29822A06000D4092 /* Astronaut_Browser.entitlements */,
 				26F99BEF29822A06000D4092 /* Preview Content */,
@@ -115,6 +180,7 @@
 		26F99BF929822A06000D4092 /* Astronaut BrowserTests */ = {
 			isa = PBXGroup;
 			children = (
+				26E0A9502985C3F600A42735 /* Resource */,
 				26F99BFA29822A06000D4092 /* Astronaut_BrowserTests.swift */,
 			);
 			path = "Astronaut BrowserTests";
@@ -127,6 +193,30 @@
 				26F99C0629822A06000D4092 /* Astronaut_BrowserUITestsLaunchTests.swift */,
 			);
 			path = "Astronaut BrowserUITests";
+			sourceTree = "<group>";
+		};
+		26F99C1329822AC9000D4092 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26E0A9062983CF3000A42735 /* AstronautResponse.swift */,
+				26F99C1429822AE0000D4092 /* Astronaut.swift */,
+				264948A32987DBB30022CA16 /* Astronaut+.swift */,
+				26E0A9082983CF4500A42735 /* Agency.swift */,
+				26E0A90A2983CF5700A42735 /* Status.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26F99C1629822BED000D4092 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				26E0A8FD2983028100A42735 /* Network.swift */,
+				2649489B2987D37E0022CA16 /* MockNetwork.swift */,
+				264948962985DA4F0022CA16 /* Network+Astronaunt.swift */,
+				264948942985D45E0022CA16 /* NetworkError.swift */,
+				264948992987D2E70022CA16 /* NetworkProtocol.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +325,7 @@
 			files = (
 				26F99BF129822A06000D4092 /* Preview Assets.xcassets in Resources */,
 				26F99BED29822A06000D4092 /* Assets.xcassets in Resources */,
+				264948A72987DF660022CA16 /* AstronautResponseExample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E0A9532985C42600A42735 /* AstronautResponseExample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +351,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F99BEB29822A04000D4092 /* ContentView.swift in Sources */,
+				26E0A94D2984A6EF00A42735 /* AstronautFilterView.swift in Sources */,
+				264948952985D45E0022CA16 /* NetworkError.swift in Sources */,
+				264948932985D3190022CA16 /* Color+.swift in Sources */,
+				26F99C1529822AE0000D4092 /* Astronaut.swift in Sources */,
+				26E0A90329830A8100A42735 /* AstronautListView.swift in Sources */,
+				26E0A9072983CF3000A42735 /* AstronautResponse.swift in Sources */,
+				26E0A90029830A4C00A42735 /* AstronautViewViewModel.swift in Sources */,
+				26E0A90B2983CF5700A42735 /* Status.swift in Sources */,
+				264948972985DA4F0022CA16 /* Network+Astronaunt.swift in Sources */,
+				26E0A8FE2983028100A42735 /* Network.swift in Sources */,
 				26F99BE929822A04000D4092 /* Astronaut_BrowserApp.swift in Sources */,
+				264948A22987DADC0022CA16 /* MockNetwork.swift in Sources */,
+				264948A42987DBB30022CA16 /* Astronaut+.swift in Sources */,
+				2649489A2987D2E70022CA16 /* NetworkProtocol.swift in Sources */,
+				26E0A90F2983CFE700A42735 /* AstronautDetailView.swift in Sources */,
+				26E0A9052983C2B300A42735 /* AstronautCell.swift in Sources */,
+				26E0A9092983CF4500A42735 /* Agency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2649489D2987D3950022CA16 /* NetworkError.swift in Sources */,
 				26F99BFB29822A06000D4092 /* Astronaut_BrowserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

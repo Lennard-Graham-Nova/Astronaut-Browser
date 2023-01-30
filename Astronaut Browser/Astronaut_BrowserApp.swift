@@ -11,7 +11,7 @@ import SwiftUI
 struct Astronaut_BrowserApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AstronautListView(viewModel: .init())
         }
     }
 }
